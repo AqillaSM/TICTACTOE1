@@ -45,8 +45,8 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
+            this.NextRound = new System.Windows.Forms.Button();
+            this.ExitGame = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
@@ -195,6 +195,7 @@
             this.button5.Size = new System.Drawing.Size(80, 80);
             this.button5.TabIndex = 19;
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -206,6 +207,7 @@
             this.button6.Size = new System.Drawing.Size(80, 80);
             this.button6.TabIndex = 20;
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -217,6 +219,7 @@
             this.button7.Size = new System.Drawing.Size(80, 80);
             this.button7.TabIndex = 21;
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -228,6 +231,7 @@
             this.button8.Size = new System.Drawing.Size(80, 80);
             this.button8.TabIndex = 22;
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -239,33 +243,35 @@
             this.button9.Size = new System.Drawing.Size(80, 80);
             this.button9.TabIndex = 23;
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
-            // button10
+            // NextRound
             // 
-            this.button10.BackColor = System.Drawing.Color.Transparent;
-            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button10.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(136, 544);
-            this.button10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(224, 51);
-            this.button10.TabIndex = 24;
-            this.button10.Text = "NEXT ROUND";
-            this.button10.UseVisualStyleBackColor = false;
+            this.NextRound.BackColor = System.Drawing.Color.Transparent;
+            this.NextRound.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.NextRound.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NextRound.Location = new System.Drawing.Point(136, 544);
+            this.NextRound.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.NextRound.Name = "NextRound";
+            this.NextRound.Size = new System.Drawing.Size(224, 51);
+            this.NextRound.TabIndex = 24;
+            this.NextRound.Text = "NEXT ROUND";
+            this.NextRound.UseVisualStyleBackColor = false;
+            this.NextRound.Click += new System.EventHandler(this.button10_Click);
             // 
-            // button11
+            // ExitGame
             // 
-            this.button11.BackColor = System.Drawing.Color.Transparent;
-            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button11.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(136, 605);
-            this.button11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(224, 51);
-            this.button11.TabIndex = 25;
-            this.button11.Text = "EXIT GAME";
-            this.button11.UseVisualStyleBackColor = false;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
+            this.ExitGame.BackColor = System.Drawing.Color.Transparent;
+            this.ExitGame.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ExitGame.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExitGame.Location = new System.Drawing.Point(136, 605);
+            this.ExitGame.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ExitGame.Name = "ExitGame";
+            this.ExitGame.Size = new System.Drawing.Size(224, 51);
+            this.ExitGame.TabIndex = 25;
+            this.ExitGame.Text = "EXIT GAME";
+            this.ExitGame.UseVisualStyleBackColor = false;
+            this.ExitGame.Click += new System.EventHandler(this.button11_Click);
             // 
             // panel5
             // 
@@ -309,8 +315,8 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel5);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
+            this.Controls.Add(this.ExitGame);
+            this.Controls.Add(this.NextRound);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
@@ -354,8 +360,8 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button NextRound;
+        private System.Windows.Forms.Button ExitGame;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label7;
