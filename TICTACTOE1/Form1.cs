@@ -13,14 +13,61 @@ namespace TICTACTOE1
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        public Form1(bool isHost, string ip = null)
         {
             InitializeComponent();
+            MessageReceiver.DoWork += MessageReceiver_DoWork;
+            CheckForIllegalCrossThreadCalls = false;
+
+            if (isHost)
+            {
+                PlayersChar = 'X';
+                OpponentsChar = 'O';
+                server = new TcpListener(System.Net.IPAddress.Any, 5732);
+                server.Start();
+                sock = server.AcceptSocket();
+            }
+            else
+            {
+                PlayersChar = 'O';
+                OpponentsChar = 'X';
+                try
+                {
+                    client = new TcpClient(ip, 5732);
+                    sock = client.Client;
+                    MessageReceiver.RunWorkerAsync();
+
+                }
+                catch(Exception exception)
+                {
+                    MessageBox.Show(exception.Message);
+                    Close();
+                }
+            }
         }
 
-        private char PlayersChar;
+        private void MessageReceiver_DoWork(object sender, DoWorkEventArgs e)
+        {
+            if (CheckSituation())
+            {
+                return;
+            }
+            FreezeBoard();
+            label7.Text = "Opponents's Turn";
+            ReceiveMove();
+            label7.Text = "Your Turn!";
+            if (!CheckSituation())
+            {
+                UnfreezeBoard();
+            }
+        }
+
+        private char PlayersChar;   
         private char OpponentsChar;
         private Socket sock;
+        private BackgroundWorker MessageReceiver = new BackgroundWorker();
+        private TcpListener server = null;
+        private TcpClient client;
         private bool CheckSituation()
         {
             //Verticals Win
@@ -188,9 +235,52 @@ namespace TICTACTOE1
                 button9.Enabled = true;
         }
 
+        private void ReceiveMove()
+        {
+            byte[] buffer = new byte[1];
+            sock.Receive(buffer);
+            if (buffer[0] == 1)
+            {
+                button1.Text = OpponentsChar.ToString();
+            }
+            if (buffer[0] == 2)
+            {
+                button2.Text = OpponentsChar.ToString();
+            }
+            if (buffer[0] == 3)
+            {
+                button3.Text = OpponentsChar.ToString();
+            }
+            if (buffer[0] == 4)
+            {
+                button4.Text = OpponentsChar.ToString();
+            }
+            if (buffer[0] == 5)
+            {
+                button5.Text = OpponentsChar.ToString();
+            }
+            if (buffer[0] == 6)
+            {
+                button6.Text = OpponentsChar.ToString();
+            }
+            if (buffer[0] == 7)
+            {
+                button7.Text = OpponentsChar.ToString();
+            }
+            if (buffer[0] == 8)
+            {
+                button8.Text = OpponentsChar.ToString();
+            }
+            if (buffer[0] == 9)
+            {
+                button9.Text = OpponentsChar.ToString();
+            }
+
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-
+            byte[] num = { 1 };
         }
         private void button2_Click_1(object sender, EventArgs e)
         {

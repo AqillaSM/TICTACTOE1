@@ -21,5 +21,10 @@ namespace TICTACTOE1
         {
 
         }
+
+        private void design_kotak_ip_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
