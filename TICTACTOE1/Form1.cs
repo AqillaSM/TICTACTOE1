@@ -15,6 +15,7 @@ namespace TICTACTOE1
     {
         public Form1(bool isHost, string ip = null)
         {
+
             InitializeComponent();
             MessageReceiver.DoWork += MessageReceiver_DoWork;
             CheckForIllegalCrossThreadCalls = false;
@@ -26,6 +27,7 @@ namespace TICTACTOE1
                 server = new TcpListener(System.Net.IPAddress.Any, 5732);
                 server.Start();
                 sock = server.AcceptSocket();
+                label8.Text = Name;
             }
             else
             {
@@ -38,12 +40,14 @@ namespace TICTACTOE1
                     MessageReceiver.RunWorkerAsync();
 
                 }
-                catch(Exception exception)
+                catch (Exception exception)
                 {
                     MessageBox.Show(exception.Message);
                     Close();
                 }
+                label1.Text = Name;
             }
+
         }
 
         private void MessageReceiver_DoWork(object sender, DoWorkEventArgs e)
@@ -68,6 +72,8 @@ namespace TICTACTOE1
         private BackgroundWorker MessageReceiver = new BackgroundWorker();
         private TcpListener server = null;
         private TcpClient client;
+        int counterScorePlayerOne = 0;
+        int counterScorePlayerTwo = 0;
         private bool CheckSituation()
         {
             //Verticals Win
@@ -76,12 +82,16 @@ namespace TICTACTOE1
                 if (button1.Text[0] == PlayersChar)
                 {
                     label7.Text = "You Won!";
-                    MessageBox.Show("You Won!");
+                    counterScorePlayerOne++;
+                    label4.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
                 }
                 else
                 {
                     label7.Text = "You Lost!";
-                    MessageBox.Show("You Lost!");
+                    counterScorePlayerTwo++;
+                    label6.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
                 }
                 return true;
             }
@@ -91,12 +101,16 @@ namespace TICTACTOE1
                 if (button2.Text[0] == PlayersChar)
                 {
                     label7.Text = "You Won!";
-                    MessageBox.Show("You Won!");
+                    counterScorePlayerOne++;
+                    label4.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
                 }
                 else
                 {
                     label7.Text = "You Lost!";
-                    MessageBox.Show("You Lost!");
+                    counterScorePlayerTwo++;
+                    label6.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
                 }
                 return true;
             }
@@ -106,12 +120,16 @@ namespace TICTACTOE1
                 if (button3.Text[0] == PlayersChar)
                 {
                     label7.Text = "You Won!";
-                    MessageBox.Show("You Won!");
+                    counterScorePlayerOne++;
+                    label4.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
                 }
                 else
                 {
                     label7.Text = "You Lost!";
-                    MessageBox.Show("You Lost!");
+                    counterScorePlayerTwo++;
+                    label6.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
                 }
                 return true;
             }
@@ -121,12 +139,16 @@ namespace TICTACTOE1
                 if (button1.Text[0] == PlayersChar)
                 {
                     label7.Text = "You Won!";
-                    MessageBox.Show("You Won!");
+                    counterScorePlayerOne++;
+                    label4.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
                 }
                 else
                 {
                     label7.Text = "You Lost!";
-                    MessageBox.Show("You Lost!");
+                    counterScorePlayerTwo++;
+                    label6.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
                 }
                 return true;
             }
@@ -136,12 +158,16 @@ namespace TICTACTOE1
                 if (button3.Text[0] == PlayersChar)
                 {
                     label7.Text = "You Won!";
-                    MessageBox.Show("You Won!");
+                    counterScorePlayerOne++;
+                    label4.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
                 }
                 else
                 {
                     label7.Text = "You Lost!";
-                    MessageBox.Show("You Lost!");
+                    counterScorePlayerTwo++;
+                    label6.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
                 }
                 return true;
             }
@@ -152,12 +178,16 @@ namespace TICTACTOE1
                 if (button1.Text[0] == PlayersChar)
                 {
                     label7.Text = "You Won!";
-                    MessageBox.Show("You Won!");
+                    counterScorePlayerOne++;
+                    label4.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
                 }
                 else
                 {
                     label7.Text = "You Lost!";
-                    MessageBox.Show("You Lost!");
+                    counterScorePlayerTwo++;
+                    label6.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
                 }
                 return true;
             }
@@ -167,12 +197,16 @@ namespace TICTACTOE1
                 if (button4.Text[0] == PlayersChar)
                 {
                     label7.Text = "You Won!";
-                    MessageBox.Show("You Won!");
+                    counterScorePlayerOne++;
+                    label4.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
                 }
                 else
                 {
                     label7.Text = "You Lost!";
-                    MessageBox.Show("You Lost!");
+                    counterScorePlayerTwo++;
+                    label6.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
                 }
                 return true;
             }
@@ -182,12 +216,16 @@ namespace TICTACTOE1
                 if (button7.Text[0] == PlayersChar)
                 {
                     label7.Text = "You Won!";
-                    MessageBox.Show("You Won!");
+                    counterScorePlayerOne++;
+                    label4.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
                 }
                 else
                 {
                     label7.Text = "You Lost!";
-                    MessageBox.Show("You Lost!");
+                    counterScorePlayerTwo++;
+                    label6.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
                 }
                 return true;
             }
@@ -277,8 +315,20 @@ namespace TICTACTOE1
             }
 
         }
+        private void ClearBoard()
+        {
+            button1.Text = "";
+            button2.Text = "";
+            button3.Text = "";
+            button4.Text = "";
+            button5.Text = "";
+            button6.Text = "";
+            button7.Text = "";
+            button8.Text = "";
+            button9.Text = "";
+        }
 
-        private void button1_Click(object sender, EventArgs e)
+            private void button1_Click(object sender, EventArgs e)
         {
             byte[] num = { 1 };
             sock.Send(num);
@@ -405,11 +455,29 @@ namespace TICTACTOE1
 
         private void button10_Click(object sender, EventArgs e)
         {
-
+            //ClearBoard();
         }
         private void button11_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button10_Click_1(object sender, EventArgs e)
+        {
+            counterScorePlayerOne = 0;
+            counterScorePlayerTwo = 0;
+            label4.Text = counterScorePlayerOne.ToString();
+            label6.Text = counterScorePlayerTwo.ToString();
         }
     }
 }
