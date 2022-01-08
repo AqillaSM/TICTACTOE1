@@ -12,6 +12,7 @@ namespace TICTACTOE1
 {
     public partial class design_kotak_ip : Form
     {
+        
         public design_kotak_ip()
         {
             InitializeComponent();
@@ -53,7 +54,8 @@ namespace TICTACTOE1
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             string Name;
-            Name = textBox1.Text;
+            Name = textBox2.Text;
+            
 
         }
 
