@@ -248,21 +248,7 @@
             this.button9.TabIndex = 23;
             this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
-            // NextRound
-            // 
-            this.NextRound.BackColor = System.Drawing.Color.Transparent;
-            this.NextRound.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.NextRound.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NextRound.Location = new System.Drawing.Point(121, 433);
-            this.NextRound.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.NextRound.Name = "NextRound";
-            this.NextRound.Size = new System.Drawing.Size(199, 41);
-            this.NextRound.TabIndex = 24;
-            this.NextRound.Text = "NEXT ROUND";
-            this.NextRound.UseVisualStyleBackColor = false;
-            this.NextRound.Click += new System.EventHandler(this.button10_Click);
-            // 
+            //
             // ExitGame
             // 
             this.ExitGame.BackColor = System.Drawing.Color.Transparent;
