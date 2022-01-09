@@ -17,9 +17,11 @@ namespace TICTACTOE1
 
         public Form1(bool isHost, string ip = null)
         {
+            
             InitializeComponent();
             MessageReceiver.DoWork += MessageReceiver_DoWork;
             CheckForIllegalCrossThreadCalls = false;
+            
 
             if (isHost)
             {
@@ -27,8 +29,9 @@ namespace TICTACTOE1
                 OpponentsChar = 'O';
                 server = new TcpListener(System.Net.IPAddress.Any, 5732);
                 server.Start();
-                sock = server.AcceptSocket();
-                //label8.Text = Name;
+                sock = server.AcceptSocket(); 
+                nama.Text = Name;
+
             }
             else
             {
@@ -41,6 +44,7 @@ namespace TICTACTOE1
                     client = new TcpClient(ip, 5732);
                     sock = client.Client;
                     MessageReceiver.RunWorkerAsync();
+                    nama2.Text = Name;
 
                 }
                 catch (Exception exception)
@@ -58,9 +62,9 @@ namespace TICTACTOE1
                 return;
             }
             FreezeBoard();
-            label7.Text = "Opponents's Turn";
+            label7.Text = $"Opponents's Turn";
             ReceiveMove();
-            label7.Text = "Your Turn!";
+            label7.Text = $"Your Turn!";
             if (!CheckSituation())
             {
                 UnfreezeBoard();
@@ -484,7 +488,7 @@ namespace TICTACTOE1
 
         private void label8_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label1_Click_1(object sender, EventArgs e)
@@ -498,6 +502,16 @@ namespace TICTACTOE1
             counterScorePlayerTwo = 0;
             label4.Text = counterScorePlayerOne.ToString();
             label6.Text = counterScorePlayerTwo.ToString();
+        }
+
+        private void nama_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void nama2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
