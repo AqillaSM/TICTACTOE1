@@ -51,10 +51,7 @@ namespace TICTACTOE1
         }
         public void textBox1_TextChanged(object sender, EventArgs e)
         {
-            string Name;
-            Name = textBox2.Text;
-            
-
+           
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -69,8 +66,8 @@ namespace TICTACTOE1
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            //string Name;
-            //Name = textBox2.Text;
+            string Name;
+            Name = textBox2.Text;
             //Form1 frm1 = new Form1(textBox2.Text.ToString());
         }
     }
