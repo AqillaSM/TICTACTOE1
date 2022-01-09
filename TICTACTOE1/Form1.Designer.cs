@@ -45,7 +45,6 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.NextRound = new System.Windows.Forms.Button();
             this.ExitGame = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -248,26 +247,12 @@
             this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
-            // NextRound
-            // 
-            this.NextRound.BackColor = System.Drawing.Color.Transparent;
-            this.NextRound.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.NextRound.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NextRound.Location = new System.Drawing.Point(136, 541);
-            this.NextRound.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.NextRound.Name = "NextRound";
-            this.NextRound.Size = new System.Drawing.Size(224, 51);
-            this.NextRound.TabIndex = 24;
-            this.NextRound.Text = "NEXT ROUND";
-            this.NextRound.UseVisualStyleBackColor = false;
-            this.NextRound.Click += new System.EventHandler(this.button10_Click);
-            // 
             // ExitGame
             // 
             this.ExitGame.BackColor = System.Drawing.Color.Transparent;
             this.ExitGame.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ExitGame.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ExitGame.Location = new System.Drawing.Point(136, 659);
+            this.ExitGame.Location = new System.Drawing.Point(136, 598);
             this.ExitGame.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ExitGame.Name = "ExitGame";
             this.ExitGame.Size = new System.Drawing.Size(224, 51);
@@ -299,7 +284,7 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(103, 485);
+            this.label7.Location = new System.Drawing.Point(79, 488);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(332, 29);
@@ -335,7 +320,7 @@
             // button10
             // 
             this.button10.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(136, 600);
+            this.button10.Location = new System.Drawing.Point(136, 539);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(224, 51);
             this.button10.TabIndex = 29;
@@ -349,7 +334,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(494, 743);
+            this.ClientSize = new System.Drawing.Size(494, 683);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label8);
@@ -357,7 +342,6 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.ExitGame);
-            this.Controls.Add(this.NextRound);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
@@ -374,6 +358,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "TicTacToe Multiplayer by Team ";
@@ -401,7 +386,6 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button NextRound;
         private System.Windows.Forms.Button ExitGame;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel2;

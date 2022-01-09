@@ -7,15 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Net.Sockets;
+using System.Net.Sockets; //untuk send ke app lain
 
 namespace TICTACTOE1
 {
     public partial class Form1 : Form
     {
+        
+
         public Form1(bool isHost, string ip = null)
         {
-
             InitializeComponent();
             MessageReceiver.DoWork += MessageReceiver_DoWork;
             CheckForIllegalCrossThreadCalls = false;
@@ -27,12 +28,14 @@ namespace TICTACTOE1
                 server = new TcpListener(System.Net.IPAddress.Any, 5732);
                 server.Start();
                 sock = server.AcceptSocket();
-                label8.Text = Name;
+                //label8.Text = Name;
             }
             else
             {
                 PlayersChar = 'O';
                 OpponentsChar = 'X';
+                //design_kotak_ip Namaku = new design_kotak_ip();
+                //label1.Text = Namaku.Name;
                 try
                 {
                     client = new TcpClient(ip, 5732);
@@ -45,11 +48,9 @@ namespace TICTACTOE1
                     MessageBox.Show(exception.Message);
                     Close();
                 }
-                label1.Text = Name;
+                
             }
-
         }
-
         private void MessageReceiver_DoWork(object sender, DoWorkEventArgs e)
         {
             if (CheckSituation())
@@ -80,11 +81,13 @@ namespace TICTACTOE1
             if (button1.Text == button4.Text && button4.Text == button7.Text && button7.Text != "")
             {
                 if (button1.Text[0] == PlayersChar)
-                {
+                { 
                     label7.Text = "You Won!";
                     counterScorePlayerOne++;
                     label4.Text = counterScorePlayerOne.ToString();
                     MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                    
                 }
                 else
                 {
@@ -92,6 +95,7 @@ namespace TICTACTOE1
                     counterScorePlayerTwo++;
                     label6.Text = counterScorePlayerTwo.ToString();
                     MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
                 }
                 return true;
             }
@@ -104,6 +108,7 @@ namespace TICTACTOE1
                     counterScorePlayerOne++;
                     label4.Text = counterScorePlayerOne.ToString();
                     MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
                 }
                 else
                 {
@@ -111,6 +116,8 @@ namespace TICTACTOE1
                     counterScorePlayerTwo++;
                     label6.Text = counterScorePlayerTwo.ToString();
                     MessageBox.Show($"{Name} Lost!");
+                    //FreezeBoard();
+                    ClearBoard();
                 }
                 return true;
             }
@@ -123,6 +130,7 @@ namespace TICTACTOE1
                     counterScorePlayerOne++;
                     label4.Text = counterScorePlayerOne.ToString();
                     MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
                 }
                 else
                 {
@@ -130,6 +138,7 @@ namespace TICTACTOE1
                     counterScorePlayerTwo++;
                     label6.Text = counterScorePlayerTwo.ToString();
                     MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
                 }
                 return true;
             }
@@ -142,6 +151,7 @@ namespace TICTACTOE1
                     counterScorePlayerOne++;
                     label4.Text = counterScorePlayerOne.ToString();
                     MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
                 }
                 else
                 {
@@ -149,6 +159,7 @@ namespace TICTACTOE1
                     counterScorePlayerTwo++;
                     label6.Text = counterScorePlayerTwo.ToString();
                     MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
                 }
                 return true;
             }
@@ -161,6 +172,7 @@ namespace TICTACTOE1
                     counterScorePlayerOne++;
                     label4.Text = counterScorePlayerOne.ToString();
                     MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
                 }
                 else
                 {
@@ -168,6 +180,7 @@ namespace TICTACTOE1
                     counterScorePlayerTwo++;
                     label6.Text = counterScorePlayerTwo.ToString();
                     MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
                 }
                 return true;
             }
@@ -181,6 +194,7 @@ namespace TICTACTOE1
                     counterScorePlayerOne++;
                     label4.Text = counterScorePlayerOne.ToString();
                     MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
                 }
                 else
                 {
@@ -188,6 +202,7 @@ namespace TICTACTOE1
                     counterScorePlayerTwo++;
                     label6.Text = counterScorePlayerTwo.ToString();
                     MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
                 }
                 return true;
             }
@@ -200,6 +215,7 @@ namespace TICTACTOE1
                     counterScorePlayerOne++;
                     label4.Text = counterScorePlayerOne.ToString();
                     MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
                 }
                 else
                 {
@@ -207,6 +223,7 @@ namespace TICTACTOE1
                     counterScorePlayerTwo++;
                     label6.Text = counterScorePlayerTwo.ToString();
                     MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
                 }
                 return true;
             }
@@ -219,6 +236,7 @@ namespace TICTACTOE1
                     counterScorePlayerOne++;
                     label4.Text = counterScorePlayerOne.ToString();
                     MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
                 }
                 else
                 {
@@ -226,6 +244,7 @@ namespace TICTACTOE1
                     counterScorePlayerTwo++;
                     label6.Text = counterScorePlayerTwo.ToString();
                     MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
                 }
                 return true;
             }
@@ -235,6 +254,7 @@ namespace TICTACTOE1
             {
                 label7.Text = "It's a draw!";
                 MessageBox.Show("It's a draw!");
+                ClearBoard();
                 return true;
             }
             return false;
@@ -313,7 +333,7 @@ namespace TICTACTOE1
             {
                 button9.Text = OpponentsChar.ToString();
             }
-
+            CheckSituation();
         }
         private void ClearBoard()
         {
@@ -326,13 +346,15 @@ namespace TICTACTOE1
             button7.Text = "";
             button8.Text = "";
             button9.Text = "";
+            UnfreezeBoard();
         }
 
-            private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             byte[] num = { 1 };
             sock.Send(num);
             button1.Text = PlayersChar.ToString();
+            CheckSituation();
             MessageReceiver.RunWorkerAsync();
         }
         private void button2_Click_1(object sender, EventArgs e)
@@ -340,6 +362,7 @@ namespace TICTACTOE1
             byte[] num = { 2 };
             sock.Send(num);
             button2.Text = PlayersChar.ToString();
+            CheckSituation();
             MessageReceiver.RunWorkerAsync();
         }
         private void button3_Click(object sender, EventArgs e)
@@ -347,6 +370,7 @@ namespace TICTACTOE1
             byte[] num = { 3 };
             sock.Send(num);
             button3.Text = PlayersChar.ToString();
+            CheckSituation();
             MessageReceiver.RunWorkerAsync();
         }
         private void button4_Click(object sender, EventArgs e)
@@ -354,6 +378,7 @@ namespace TICTACTOE1
             byte[] num = { 4 };
             sock.Send(num);
             button4.Text = PlayersChar.ToString();
+            CheckSituation();
             MessageReceiver.RunWorkerAsync();
         }
         private void button5_Click(object sender, EventArgs e)
@@ -361,6 +386,7 @@ namespace TICTACTOE1
             byte[] num = { 5 };
             sock.Send(num);
             button5.Text = PlayersChar.ToString();
+            CheckSituation();
             MessageReceiver.RunWorkerAsync();
         }
         private void button6_Click(object sender, EventArgs e)
@@ -368,6 +394,7 @@ namespace TICTACTOE1
             byte[] num = { 6 };
             sock.Send(num);
             button6.Text = PlayersChar.ToString();
+            CheckSituation();
             MessageReceiver.RunWorkerAsync();
         }
         private void button7_Click(object sender, EventArgs e)
@@ -375,6 +402,7 @@ namespace TICTACTOE1
             byte[] num = { 7 };
             sock.Send(num);
             button7.Text = PlayersChar.ToString();
+            CheckSituation();
             MessageReceiver.RunWorkerAsync();
         }
         private void button8_Click(object sender, EventArgs e)
@@ -382,6 +410,7 @@ namespace TICTACTOE1
             byte[] num = { 8 };
             sock.Send(num);
             button8.Text = PlayersChar.ToString();
+            CheckSituation();
             MessageReceiver.RunWorkerAsync();
         }
         private void button9_Click(object sender, EventArgs e)
@@ -389,6 +418,7 @@ namespace TICTACTOE1
             byte[] num = { 9 };
             sock.Send(num);
             button9.Text = PlayersChar.ToString();
+            CheckSituation();
             MessageReceiver.RunWorkerAsync();
         }
         private void Form1_Load(object sender, EventArgs e)
@@ -405,24 +435,18 @@ namespace TICTACTOE1
         {
             
         }
-
-        
-
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
-
         private void panel1_Paint_1(object sender, PaintEventArgs e)
         {
 
         }
-
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
 
         }
-
         private void label2_Click(object sender, EventArgs e)
         {
 
@@ -453,10 +477,6 @@ namespace TICTACTOE1
 
         }
 
-        private void button10_Click(object sender, EventArgs e)
-        {
-            //ClearBoard();
-        }
         private void button11_Click(object sender, EventArgs e)
         {
             Application.Exit();

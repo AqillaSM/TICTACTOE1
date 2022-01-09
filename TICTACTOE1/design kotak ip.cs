@@ -34,27 +34,24 @@ namespace TICTACTOE1
             if (!newGame.IsDisposed)
             {
                 newGame.ShowDialog();
-
             }
             Visible = true;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form1 newGame = new Form1(true);
+            Form1 newGame = new Form1(true); // buat nyambungin ke form1.cs
             Visible = false;
             if (!newGame.IsDisposed)
             {
-                newGame.ShowDialog();
+                newGame.ShowDialog(); 
                 Visible = true;
             }
         }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        public void textBox1_TextChanged(object sender, EventArgs e)
         {
-            string Name;
-            Name = textBox1.Text;
-
+            
+            //Form1 frm1 = new Form1(textBox1.Text.ToString());
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -65,6 +62,13 @@ namespace TICTACTOE1
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            //string Name;
+            //Name = textBox2.Text;
+            //Form1 frm1 = new Form1(textBox2.Text.ToString());
         }
     }
 }
