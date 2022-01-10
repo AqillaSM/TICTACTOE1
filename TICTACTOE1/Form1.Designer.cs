@@ -397,11 +397,11 @@
             this.OpponentsLabel.AutoSize = true;
             this.OpponentsLabel.BackColor = System.Drawing.Color.Transparent;
             this.OpponentsLabel.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OpponentsLabel.Location = new System.Drawing.Point(396, 95);
+            this.OpponentsLabel.Location = new System.Drawing.Point(413, 95);
             this.OpponentsLabel.Name = "OpponentsLabel";
-            this.OpponentsLabel.Size = new System.Drawing.Size(227, 32);
+            this.OpponentsLabel.Size = new System.Drawing.Size(147, 32);
             this.OpponentsLabel.TabIndex = 30;
-            this.OpponentsLabel.Text = "Opponent\'s Score";
+            this.OpponentsLabel.Text = "Player Two";
             this.OpponentsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // YoursLabel
@@ -411,9 +411,9 @@
             this.YoursLabel.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.YoursLabel.Location = new System.Drawing.Point(67, 95);
             this.YoursLabel.Name = "YoursLabel";
-            this.YoursLabel.Size = new System.Drawing.Size(166, 32);
+            this.YoursLabel.Size = new System.Drawing.Size(149, 32);
             this.YoursLabel.TabIndex = 31;
-            this.YoursLabel.Text = "Your\'s Score";
+            this.YoursLabel.Text = "Player One";
             // 
             // button18
             // 
