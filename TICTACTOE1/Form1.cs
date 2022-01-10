@@ -30,7 +30,7 @@ namespace TICTACTOE1
                 server = new TcpListener(System.Net.IPAddress.Any, 5732);
                 server.Start();
                 sock = server.AcceptSocket(); 
-                nama.Text = Name;
+                YoursLabel.Text = Name;
 
             }
             else
@@ -44,7 +44,7 @@ namespace TICTACTOE1
                     client = new TcpClient(ip, 5732);
                     sock = client.Client;
                     MessageReceiver.RunWorkerAsync();
-                    nama2.Text = Name;
+                    OpponentsLabel.Text = Name;
 
                 }
                 catch (Exception exception)
@@ -62,9 +62,9 @@ namespace TICTACTOE1
                 return;
             }
             FreezeBoard();
-            label7.Text = $"Opponents's Turn";
+            TurnLabel.Text = $"Opponents's Turn";
             ReceiveMove();
-            label7.Text = $"Your Turn!";
+            TurnLabel.Text = $"Your Turn!";
             if (!CheckSituation())
             {
                 UnfreezeBoard();
@@ -86,18 +86,18 @@ namespace TICTACTOE1
             {
                 if (button1.Text[0] == PlayersChar)
                 { 
-                    label7.Text = "You Won!";
+                    TurnLabel.Text = "You Won!";
                     counterScorePlayerOne++;
-                    label4.Text = counterScorePlayerOne.ToString();
+                    YoursScore.Text = counterScorePlayerOne.ToString();
                     MessageBox.Show($"{Name} Won!");
                     ClearBoard();
                     
                 }
                 else
                 {
-                    label7.Text = "You Lost!";
+                    TurnLabel.Text = "You Lost!";
                     counterScorePlayerTwo++;
-                    label6.Text = counterScorePlayerTwo.ToString();
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
                     MessageBox.Show($"{Name} Lost!");
                     ClearBoard();
                 }
@@ -108,19 +108,18 @@ namespace TICTACTOE1
             {
                 if (button2.Text[0] == PlayersChar)
                 {
-                    label7.Text = "You Won!";
+                    TurnLabel.Text = "You Won!";
                     counterScorePlayerOne++;
-                    label4.Text = counterScorePlayerOne.ToString();
+                    YoursScore.Text = counterScorePlayerOne.ToString();
                     MessageBox.Show($"{Name} Won!");
                     ClearBoard();
                 }
                 else
                 {
-                    label7.Text = "You Lost!";
+                    TurnLabel.Text = "You Lost!";
                     counterScorePlayerTwo++;
-                    label6.Text = counterScorePlayerTwo.ToString();
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
                     MessageBox.Show($"{Name} Lost!");
-                    //FreezeBoard();
                     ClearBoard();
                 }
                 return true;
@@ -130,38 +129,39 @@ namespace TICTACTOE1
             {
                 if (button3.Text[0] == PlayersChar)
                 {
-                    label7.Text = "You Won!";
+                    TurnLabel.Text = "You Won!";
                     counterScorePlayerOne++;
-                    label4.Text = counterScorePlayerOne.ToString();
+                    YoursScore.Text = counterScorePlayerOne.ToString();
                     MessageBox.Show($"{Name} Won!");
                     ClearBoard();
                 }
                 else
                 {
-                    label7.Text = "You Lost!";
+                    TurnLabel.Text = "You Lost!";
                     counterScorePlayerTwo++;
-                    label6.Text = counterScorePlayerTwo.ToString();
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
                     MessageBox.Show($"{Name} Lost!");
                     ClearBoard();
                 }
                 return true;
             }
 
+            //Diagonal Win
             else if (button1.Text == button5.Text && button5.Text == button9.Text && button9.Text != "")
             {
                 if (button1.Text[0] == PlayersChar)
                 {
-                    label7.Text = "You Won!";
+                    TurnLabel.Text = "You Won!";
                     counterScorePlayerOne++;
-                    label4.Text = counterScorePlayerOne.ToString();
+                    YoursScore.Text = counterScorePlayerOne.ToString();
                     MessageBox.Show($"{Name} Won!");
                     ClearBoard();
                 }
                 else
                 {
-                    label7.Text = "You Lost!";
+                    TurnLabel.Text = "You Lost!";
                     counterScorePlayerTwo++;
-                    label6.Text = counterScorePlayerTwo.ToString();
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
                     MessageBox.Show($"{Name} Lost!");
                     ClearBoard();
                 }
@@ -172,17 +172,17 @@ namespace TICTACTOE1
             {
                 if (button3.Text[0] == PlayersChar)
                 {
-                    label7.Text = "You Won!";
+                    TurnLabel.Text = "You Won!";
                     counterScorePlayerOne++;
-                    label4.Text = counterScorePlayerOne.ToString();
+                    YoursScore.Text = counterScorePlayerOne.ToString();
                     MessageBox.Show($"{Name} Won!");
                     ClearBoard();
                 }
                 else
                 {
-                    label7.Text = "You Lost!";
+                    TurnLabel.Text = "You Lost!";
                     counterScorePlayerTwo++;
-                    label6.Text = counterScorePlayerTwo.ToString();
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
                     MessageBox.Show($"{Name} Lost!");
                     ClearBoard();
                 }
@@ -194,17 +194,17 @@ namespace TICTACTOE1
             {
                 if (button1.Text[0] == PlayersChar)
                 {
-                    label7.Text = "You Won!";
+                    TurnLabel.Text = "You Won!";
                     counterScorePlayerOne++;
-                    label4.Text = counterScorePlayerOne.ToString();
+                    YoursScore.Text = counterScorePlayerOne.ToString();
                     MessageBox.Show($"{Name} Won!");
                     ClearBoard();
                 }
                 else
                 {
-                    label7.Text = "You Lost!";
+                    TurnLabel.Text = "You Lost!";
                     counterScorePlayerTwo++;
-                    label6.Text = counterScorePlayerTwo.ToString();
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
                     MessageBox.Show($"{Name} Lost!");
                     ClearBoard();
                 }
@@ -215,17 +215,17 @@ namespace TICTACTOE1
             {
                 if (button4.Text[0] == PlayersChar)
                 {
-                    label7.Text = "You Won!";
+                    TurnLabel.Text = "You Won!";
                     counterScorePlayerOne++;
-                    label4.Text = counterScorePlayerOne.ToString();
+                    YoursScore.Text = counterScorePlayerOne.ToString();
                     MessageBox.Show($"{Name} Won!");
                     ClearBoard();
                 }
                 else
                 {
-                    label7.Text = "You Lost!";
+                    TurnLabel.Text = "You Lost!";
                     counterScorePlayerTwo++;
-                    label6.Text = counterScorePlayerTwo.ToString();
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
                     MessageBox.Show($"{Name} Lost!");
                     ClearBoard();
                 }
@@ -236,17 +236,17 @@ namespace TICTACTOE1
             {
                 if (button7.Text[0] == PlayersChar)
                 {
-                    label7.Text = "You Won!";
+                    TurnLabel.Text = "You Won!";
                     counterScorePlayerOne++;
-                    label4.Text = counterScorePlayerOne.ToString();
+                    YoursScore.Text = counterScorePlayerOne.ToString();
                     MessageBox.Show($"{Name} Won!");
                     ClearBoard();
                 }
                 else
                 {
-                    label7.Text = "You Lost!";
+                    TurnLabel.Text = "You Lost!";
                     counterScorePlayerTwo++;
-                    label6.Text = counterScorePlayerTwo.ToString();
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
                     MessageBox.Show($"{Name} Lost!");
                     ClearBoard();
                 }
@@ -256,7 +256,7 @@ namespace TICTACTOE1
             //Draw
             else if (button1.Text != "" && button2.Text != "" && button3.Text != "" && button4.Text != "" && button5.Text != "" && button6.Text != "" && button7.Text != "" && button8.Text != "" && button9.Text != "")
             {
-                label7.Text = "It's a draw!";
+                TurnLabel.Text = "It's a draw!";
                 MessageBox.Show("It's a draw!");
                 ClearBoard();
                 return true;
@@ -417,6 +417,7 @@ namespace TICTACTOE1
             CheckSituation();
             MessageReceiver.RunWorkerAsync();
         }
+
         private void button9_Click(object sender, EventArgs e)
         {
             byte[] num = { 9 };
@@ -425,93 +426,397 @@ namespace TICTACTOE1
             CheckSituation();
             MessageReceiver.RunWorkerAsync();
         }
-        private void Form1_Load(object sender, EventArgs e)
-        {
 
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            
-        }
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-        private void panel1_Paint_1(object sender, PaintEventArgs e)
-        {
-
-        }
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-       
-        private void label7_Click(object sender, EventArgs e)
+        private void button10_Click(object sender, EventArgs e)
         {
 
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button27_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button28_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button29_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button30_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button31_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button32_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button34_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button35_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button36_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button37_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button38_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button39_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button40_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button41_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button42_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button43_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button44_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button45_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button46_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button47_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button48_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button49_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button50_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button51_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button52_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button53_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button54_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button55_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button56_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button57_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button58_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button59_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button60_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button61_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button62_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button63_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button64_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button65_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button66_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button67_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button68_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button69_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button70_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button71_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button72_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button73_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button74_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button75_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button76_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button77_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button78_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button79_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button80_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button81_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void ExitGame_Click(object sender, EventArgs e)
+        {
             Application.Exit();
         }
 
-        private void label8_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button10_Click_1(object sender, EventArgs e)
+        private void ResetScore_Click_1(object sender, EventArgs e)
         {
             counterScorePlayerOne = 0;
             counterScorePlayerTwo = 0;
-            label4.Text = counterScorePlayerOne.ToString();
-            label6.Text = counterScorePlayerTwo.ToString();
-        }
-
-        private void nama_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void nama2_Click(object sender, EventArgs e)
-        {
-
+            YoursScore.Text = counterScorePlayerOne.ToString();
+            OpponentsScore.Text = counterScorePlayerTwo.ToString();
         }
     }
 }
