@@ -146,6 +146,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(30, 150);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -220,6 +221,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(120, 150);
             this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -232,6 +234,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(210, 150);
             this.button3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -244,6 +247,7 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.White;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(300, 150);
             this.button4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -256,6 +260,7 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.White;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(390, 150);
             this.button5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -268,6 +273,7 @@
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.White;
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(480, 150);
             this.button6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -280,6 +286,7 @@
             // button7
             // 
             this.button7.BackColor = System.Drawing.Color.White;
+            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button7.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button7.Location = new System.Drawing.Point(570, 150);
             this.button7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -292,6 +299,7 @@
             // button8
             // 
             this.button8.BackColor = System.Drawing.Color.White;
+            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button8.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button8.Location = new System.Drawing.Point(660, 150);
             this.button8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -304,6 +312,7 @@
             // button9
             // 
             this.button9.BackColor = System.Drawing.Color.White;
+            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button9.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button9.Location = new System.Drawing.Point(750, 150);
             this.button9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -330,6 +339,7 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.Black;
+            this.panel5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel5.Location = new System.Drawing.Point(740, 150);
             this.panel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel5.Name = "panel5";
@@ -382,6 +392,7 @@
             // 
             // ResetScore
             // 
+            this.ResetScore.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ResetScore.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ResetScore.Location = new System.Drawing.Point(120, 943);
             this.ResetScore.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -418,6 +429,7 @@
             // button18
             // 
             this.button18.BackColor = System.Drawing.Color.White;
+            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button18.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button18.Location = new System.Drawing.Point(750, 230);
             this.button18.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -430,6 +442,7 @@
             // button17
             // 
             this.button17.BackColor = System.Drawing.Color.White;
+            this.button17.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button17.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button17.Location = new System.Drawing.Point(660, 230);
             this.button17.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -442,6 +455,7 @@
             // button16
             // 
             this.button16.BackColor = System.Drawing.Color.White;
+            this.button16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button16.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button16.Location = new System.Drawing.Point(570, 230);
             this.button16.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -454,6 +468,7 @@
             // button15
             // 
             this.button15.BackColor = System.Drawing.Color.White;
+            this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button15.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button15.Location = new System.Drawing.Point(480, 230);
             this.button15.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -466,6 +481,7 @@
             // button14
             // 
             this.button14.BackColor = System.Drawing.Color.White;
+            this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button14.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button14.Location = new System.Drawing.Point(390, 230);
             this.button14.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -478,6 +494,7 @@
             // button13
             // 
             this.button13.BackColor = System.Drawing.Color.White;
+            this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button13.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.Location = new System.Drawing.Point(300, 230);
             this.button13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -490,6 +507,7 @@
             // button12
             // 
             this.button12.BackColor = System.Drawing.Color.White;
+            this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button12.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.Location = new System.Drawing.Point(210, 230);
             this.button12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -502,6 +520,7 @@
             // button11
             // 
             this.button11.BackColor = System.Drawing.Color.White;
+            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button11.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.Location = new System.Drawing.Point(120, 230);
             this.button11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -514,6 +533,7 @@
             // button10
             // 
             this.button10.BackColor = System.Drawing.Color.White;
+            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button10.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.Location = new System.Drawing.Point(30, 230);
             this.button10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -526,6 +546,7 @@
             // button27
             // 
             this.button27.BackColor = System.Drawing.Color.White;
+            this.button27.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button27.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button27.Location = new System.Drawing.Point(750, 310);
             this.button27.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -538,6 +559,7 @@
             // button26
             // 
             this.button26.BackColor = System.Drawing.Color.White;
+            this.button26.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button26.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button26.Location = new System.Drawing.Point(660, 310);
             this.button26.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -550,6 +572,7 @@
             // button25
             // 
             this.button25.BackColor = System.Drawing.Color.White;
+            this.button25.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button25.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button25.Location = new System.Drawing.Point(570, 310);
             this.button25.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -562,6 +585,7 @@
             // button24
             // 
             this.button24.BackColor = System.Drawing.Color.White;
+            this.button24.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button24.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button24.Location = new System.Drawing.Point(480, 310);
             this.button24.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -574,6 +598,7 @@
             // button23
             // 
             this.button23.BackColor = System.Drawing.Color.White;
+            this.button23.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button23.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button23.Location = new System.Drawing.Point(390, 310);
             this.button23.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -586,6 +611,7 @@
             // button22
             // 
             this.button22.BackColor = System.Drawing.Color.White;
+            this.button22.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button22.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button22.Location = new System.Drawing.Point(300, 310);
             this.button22.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -598,6 +624,7 @@
             // button21
             // 
             this.button21.BackColor = System.Drawing.Color.White;
+            this.button21.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button21.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button21.Location = new System.Drawing.Point(210, 310);
             this.button21.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -610,6 +637,7 @@
             // button20
             // 
             this.button20.BackColor = System.Drawing.Color.White;
+            this.button20.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button20.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button20.Location = new System.Drawing.Point(120, 310);
             this.button20.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -622,6 +650,7 @@
             // button19
             // 
             this.button19.BackColor = System.Drawing.Color.White;
+            this.button19.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button19.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button19.Location = new System.Drawing.Point(30, 310);
             this.button19.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -634,6 +663,7 @@
             // button36
             // 
             this.button36.BackColor = System.Drawing.Color.White;
+            this.button36.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button36.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button36.Location = new System.Drawing.Point(750, 390);
             this.button36.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -646,6 +676,7 @@
             // button35
             // 
             this.button35.BackColor = System.Drawing.Color.White;
+            this.button35.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button35.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button35.Location = new System.Drawing.Point(660, 390);
             this.button35.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -658,6 +689,7 @@
             // button34
             // 
             this.button34.BackColor = System.Drawing.Color.White;
+            this.button34.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button34.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button34.Location = new System.Drawing.Point(570, 390);
             this.button34.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -670,6 +702,7 @@
             // button33
             // 
             this.button33.BackColor = System.Drawing.Color.White;
+            this.button33.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button33.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button33.Location = new System.Drawing.Point(480, 390);
             this.button33.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -682,6 +715,7 @@
             // button32
             // 
             this.button32.BackColor = System.Drawing.Color.White;
+            this.button32.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button32.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button32.Location = new System.Drawing.Point(390, 390);
             this.button32.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -694,6 +728,7 @@
             // button31
             // 
             this.button31.BackColor = System.Drawing.Color.White;
+            this.button31.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button31.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button31.Location = new System.Drawing.Point(300, 390);
             this.button31.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -706,6 +741,7 @@
             // button30
             // 
             this.button30.BackColor = System.Drawing.Color.White;
+            this.button30.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button30.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button30.Location = new System.Drawing.Point(210, 390);
             this.button30.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -718,6 +754,7 @@
             // button29
             // 
             this.button29.BackColor = System.Drawing.Color.White;
+            this.button29.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button29.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button29.Location = new System.Drawing.Point(120, 390);
             this.button29.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -730,6 +767,7 @@
             // button28
             // 
             this.button28.BackColor = System.Drawing.Color.White;
+            this.button28.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button28.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button28.Location = new System.Drawing.Point(30, 390);
             this.button28.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -742,6 +780,7 @@
             // button45
             // 
             this.button45.BackColor = System.Drawing.Color.White;
+            this.button45.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button45.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button45.Location = new System.Drawing.Point(750, 470);
             this.button45.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -754,6 +793,7 @@
             // button44
             // 
             this.button44.BackColor = System.Drawing.Color.White;
+            this.button44.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button44.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button44.Location = new System.Drawing.Point(660, 470);
             this.button44.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -766,6 +806,7 @@
             // button43
             // 
             this.button43.BackColor = System.Drawing.Color.White;
+            this.button43.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button43.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button43.Location = new System.Drawing.Point(570, 470);
             this.button43.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -778,6 +819,7 @@
             // button42
             // 
             this.button42.BackColor = System.Drawing.Color.White;
+            this.button42.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button42.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button42.Location = new System.Drawing.Point(480, 470);
             this.button42.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -790,6 +832,7 @@
             // button41
             // 
             this.button41.BackColor = System.Drawing.Color.White;
+            this.button41.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button41.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button41.Location = new System.Drawing.Point(390, 470);
             this.button41.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -802,6 +845,7 @@
             // button40
             // 
             this.button40.BackColor = System.Drawing.Color.White;
+            this.button40.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button40.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button40.Location = new System.Drawing.Point(300, 470);
             this.button40.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -814,6 +858,7 @@
             // button39
             // 
             this.button39.BackColor = System.Drawing.Color.White;
+            this.button39.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button39.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button39.Location = new System.Drawing.Point(210, 470);
             this.button39.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -826,6 +871,7 @@
             // button38
             // 
             this.button38.BackColor = System.Drawing.Color.White;
+            this.button38.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button38.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button38.Location = new System.Drawing.Point(120, 470);
             this.button38.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -838,6 +884,7 @@
             // button37
             // 
             this.button37.BackColor = System.Drawing.Color.White;
+            this.button37.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button37.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button37.Location = new System.Drawing.Point(30, 470);
             this.button37.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -850,6 +897,7 @@
             // button54
             // 
             this.button54.BackColor = System.Drawing.Color.White;
+            this.button54.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button54.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button54.Location = new System.Drawing.Point(750, 550);
             this.button54.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -862,6 +910,7 @@
             // button53
             // 
             this.button53.BackColor = System.Drawing.Color.White;
+            this.button53.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button53.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button53.Location = new System.Drawing.Point(660, 550);
             this.button53.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -874,6 +923,7 @@
             // button52
             // 
             this.button52.BackColor = System.Drawing.Color.White;
+            this.button52.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button52.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button52.Location = new System.Drawing.Point(570, 550);
             this.button52.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -886,6 +936,7 @@
             // button51
             // 
             this.button51.BackColor = System.Drawing.Color.White;
+            this.button51.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button51.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button51.Location = new System.Drawing.Point(480, 550);
             this.button51.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -898,6 +949,7 @@
             // button50
             // 
             this.button50.BackColor = System.Drawing.Color.White;
+            this.button50.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button50.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button50.Location = new System.Drawing.Point(390, 550);
             this.button50.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -910,6 +962,7 @@
             // button49
             // 
             this.button49.BackColor = System.Drawing.Color.White;
+            this.button49.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button49.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button49.Location = new System.Drawing.Point(300, 550);
             this.button49.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -922,6 +975,7 @@
             // button48
             // 
             this.button48.BackColor = System.Drawing.Color.White;
+            this.button48.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button48.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button48.Location = new System.Drawing.Point(210, 550);
             this.button48.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -934,6 +988,7 @@
             // button47
             // 
             this.button47.BackColor = System.Drawing.Color.White;
+            this.button47.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button47.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button47.Location = new System.Drawing.Point(120, 550);
             this.button47.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -946,6 +1001,7 @@
             // button46
             // 
             this.button46.BackColor = System.Drawing.Color.White;
+            this.button46.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button46.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button46.Location = new System.Drawing.Point(30, 550);
             this.button46.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -958,6 +1014,7 @@
             // button63
             // 
             this.button63.BackColor = System.Drawing.Color.White;
+            this.button63.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button63.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button63.Location = new System.Drawing.Point(750, 630);
             this.button63.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -970,6 +1027,7 @@
             // button62
             // 
             this.button62.BackColor = System.Drawing.Color.White;
+            this.button62.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button62.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button62.Location = new System.Drawing.Point(660, 630);
             this.button62.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -982,6 +1040,7 @@
             // button61
             // 
             this.button61.BackColor = System.Drawing.Color.White;
+            this.button61.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button61.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button61.Location = new System.Drawing.Point(570, 630);
             this.button61.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -994,6 +1053,7 @@
             // button60
             // 
             this.button60.BackColor = System.Drawing.Color.White;
+            this.button60.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button60.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button60.Location = new System.Drawing.Point(480, 630);
             this.button60.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1006,6 +1066,7 @@
             // button59
             // 
             this.button59.BackColor = System.Drawing.Color.White;
+            this.button59.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button59.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button59.Location = new System.Drawing.Point(390, 630);
             this.button59.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1018,6 +1079,7 @@
             // button58
             // 
             this.button58.BackColor = System.Drawing.Color.White;
+            this.button58.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button58.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button58.Location = new System.Drawing.Point(300, 630);
             this.button58.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1030,6 +1092,7 @@
             // button57
             // 
             this.button57.BackColor = System.Drawing.Color.White;
+            this.button57.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button57.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button57.Location = new System.Drawing.Point(210, 630);
             this.button57.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1042,6 +1105,7 @@
             // button56
             // 
             this.button56.BackColor = System.Drawing.Color.White;
+            this.button56.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button56.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button56.Location = new System.Drawing.Point(120, 630);
             this.button56.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1054,6 +1118,7 @@
             // button55
             // 
             this.button55.BackColor = System.Drawing.Color.White;
+            this.button55.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button55.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button55.Location = new System.Drawing.Point(30, 630);
             this.button55.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1066,6 +1131,7 @@
             // button72
             // 
             this.button72.BackColor = System.Drawing.Color.White;
+            this.button72.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button72.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button72.Location = new System.Drawing.Point(750, 710);
             this.button72.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1078,6 +1144,7 @@
             // button71
             // 
             this.button71.BackColor = System.Drawing.Color.White;
+            this.button71.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button71.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button71.Location = new System.Drawing.Point(660, 710);
             this.button71.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1090,6 +1157,7 @@
             // button70
             // 
             this.button70.BackColor = System.Drawing.Color.White;
+            this.button70.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button70.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button70.Location = new System.Drawing.Point(570, 710);
             this.button70.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1102,6 +1170,7 @@
             // button69
             // 
             this.button69.BackColor = System.Drawing.Color.White;
+            this.button69.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button69.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button69.Location = new System.Drawing.Point(480, 710);
             this.button69.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1114,6 +1183,7 @@
             // button68
             // 
             this.button68.BackColor = System.Drawing.Color.White;
+            this.button68.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button68.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button68.Location = new System.Drawing.Point(390, 710);
             this.button68.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1126,6 +1196,7 @@
             // button67
             // 
             this.button67.BackColor = System.Drawing.Color.White;
+            this.button67.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button67.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button67.Location = new System.Drawing.Point(300, 710);
             this.button67.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1138,6 +1209,7 @@
             // button66
             // 
             this.button66.BackColor = System.Drawing.Color.White;
+            this.button66.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button66.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button66.Location = new System.Drawing.Point(210, 710);
             this.button66.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1150,6 +1222,7 @@
             // button65
             // 
             this.button65.BackColor = System.Drawing.Color.White;
+            this.button65.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button65.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button65.Location = new System.Drawing.Point(120, 710);
             this.button65.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1162,6 +1235,7 @@
             // button64
             // 
             this.button64.BackColor = System.Drawing.Color.White;
+            this.button64.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button64.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button64.Location = new System.Drawing.Point(30, 710);
             this.button64.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1174,6 +1248,7 @@
             // button81
             // 
             this.button81.BackColor = System.Drawing.Color.White;
+            this.button81.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button81.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button81.Location = new System.Drawing.Point(750, 790);
             this.button81.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1186,6 +1261,7 @@
             // button80
             // 
             this.button80.BackColor = System.Drawing.Color.White;
+            this.button80.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button80.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button80.Location = new System.Drawing.Point(660, 790);
             this.button80.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1198,6 +1274,7 @@
             // button79
             // 
             this.button79.BackColor = System.Drawing.Color.White;
+            this.button79.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button79.Font = new System.Drawing.Font("Times New Roman", 21.75F);
             this.button79.Location = new System.Drawing.Point(570, 790);
             this.button79.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1210,6 +1287,7 @@
             // button78
             // 
             this.button78.BackColor = System.Drawing.Color.White;
+            this.button78.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button78.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button78.Location = new System.Drawing.Point(480, 790);
             this.button78.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1222,6 +1300,7 @@
             // button77
             // 
             this.button77.BackColor = System.Drawing.Color.White;
+            this.button77.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button77.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button77.Location = new System.Drawing.Point(390, 790);
             this.button77.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1234,6 +1313,7 @@
             // button76
             // 
             this.button76.BackColor = System.Drawing.Color.White;
+            this.button76.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button76.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button76.Location = new System.Drawing.Point(300, 790);
             this.button76.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1246,6 +1326,7 @@
             // button75
             // 
             this.button75.BackColor = System.Drawing.Color.White;
+            this.button75.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button75.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button75.Location = new System.Drawing.Point(210, 790);
             this.button75.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1258,6 +1339,7 @@
             // button74
             // 
             this.button74.BackColor = System.Drawing.Color.White;
+            this.button74.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button74.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button74.Location = new System.Drawing.Point(120, 790);
             this.button74.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1270,6 +1352,7 @@
             // button73
             // 
             this.button73.BackColor = System.Drawing.Color.White;
+            this.button73.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button73.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button73.Location = new System.Drawing.Point(30, 790);
             this.button73.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -1282,6 +1365,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel1.Location = new System.Drawing.Point(650, 150);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
@@ -1291,6 +1375,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Black;
+            this.panel4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel4.Location = new System.Drawing.Point(560, 150);
             this.panel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel4.Name = "panel4";
@@ -1300,6 +1385,7 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.Black;
+            this.panel6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel6.Location = new System.Drawing.Point(470, 150);
             this.panel6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel6.Name = "panel6";
@@ -1309,6 +1395,7 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.Black;
+            this.panel7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel7.Location = new System.Drawing.Point(380, 150);
             this.panel7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel7.Name = "panel7";
@@ -1318,6 +1405,7 @@
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.Black;
+            this.panel8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel8.Location = new System.Drawing.Point(290, 150);
             this.panel8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel8.Name = "panel8";
@@ -1327,6 +1415,7 @@
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.Black;
+            this.panel9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel9.Location = new System.Drawing.Point(200, 150);
             this.panel9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel9.Name = "panel9";
@@ -1336,6 +1425,7 @@
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.Black;
+            this.panel10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel10.Location = new System.Drawing.Point(110, 150);
             this.panel10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel10.Name = "panel10";
@@ -1345,6 +1435,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Black;
+            this.panel3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel3.Location = new System.Drawing.Point(30, 304);
             this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel3.Name = "panel3";
@@ -1354,6 +1445,7 @@
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.Black;
+            this.panel11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel11.Location = new System.Drawing.Point(30, 384);
             this.panel11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel11.Name = "panel11";
@@ -1363,6 +1455,7 @@
             // panel12
             // 
             this.panel12.BackColor = System.Drawing.Color.Black;
+            this.panel12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel12.Location = new System.Drawing.Point(30, 464);
             this.panel12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel12.Name = "panel12";
@@ -1372,6 +1465,7 @@
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.Black;
+            this.panel13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel13.Location = new System.Drawing.Point(30, 544);
             this.panel13.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel13.Name = "panel13";
@@ -1381,6 +1475,7 @@
             // panel14
             // 
             this.panel14.BackColor = System.Drawing.Color.Black;
+            this.panel14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel14.Location = new System.Drawing.Point(30, 624);
             this.panel14.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel14.Name = "panel14";
@@ -1390,6 +1485,7 @@
             // panel15
             // 
             this.panel15.BackColor = System.Drawing.Color.Black;
+            this.panel15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel15.Location = new System.Drawing.Point(30, 704);
             this.panel15.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel15.Name = "panel15";
@@ -1399,6 +1495,7 @@
             // panel16
             // 
             this.panel16.BackColor = System.Drawing.Color.Black;
+            this.panel16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel16.Location = new System.Drawing.Point(30, 784);
             this.panel16.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel16.Name = "panel16";
