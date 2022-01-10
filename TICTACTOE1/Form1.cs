@@ -2055,6 +2055,1083 @@ namespace TICTACTOE1
                 return true;
             }
 
+            //Diagonal
+            //Menurun
+            else if (button5.Text == button15.Text && button15.Text == button25.Text
+                && button25.Text == button35.Text && button35.Text == button45.Text && button45.Text != "")
+            {
+                if (button5.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button4.Text == button14.Text && button14.Text == button24.Text
+               && button24.Text == button34.Text && button34.Text == button44.Text && button44.Text != "")
+            {
+                if (button4.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button14.Text == button24.Text && button24.Text == button34.Text
+                && button34.Text == button44.Text && button44.Text == button54.Text && button54.Text != "")
+            {
+                if (button14.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button3.Text == button13.Text && button13.Text == button23.Text
+               && button23.Text == button33.Text && button33.Text == button43.Text && button43.Text != "")
+            {
+                if (button3.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button13.Text == button23.Text && button23.Text == button33.Text
+               && button33.Text == button43.Text && button43.Text == button53.Text && button53.Text != "")
+            {
+                if (button13.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button77.Text == button78.Text && button78.Text == button79.Text
+               && button79.Text == button80.Text && button80.Text == button81.Text && button81.Text != "")
+            {
+                if (button77.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button23.Text == button33.Text && button33.Text == button43.Text
+               && button43.Text == button53.Text && button53.Text == button63.Text && button63.Text != "")
+            {
+                if (button23.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button2.Text == button12.Text && button12.Text == button22.Text
+               && button22.Text == button32.Text && button32.Text == button42.Text && button42.Text != "")
+            {
+                if (button2.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button12.Text == button22.Text && button22.Text == button32.Text
+               && button32.Text == button42.Text && button42.Text == button52.Text && button52.Text != "")
+            {
+                if (button12.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button22.Text == button32.Text && button32.Text == button42.Text
+               && button42.Text == button52.Text && button52.Text == button62.Text && button62.Text != "")
+            {
+                if (button22.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button32.Text == button42.Text && button42.Text == button52.Text
+               && button52.Text == button62.Text && button62.Text == button72.Text && button72.Text != "")
+            {
+                if (button32.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button1.Text == button11.Text && button11.Text == button21.Text
+               && button21.Text == button31.Text && button31.Text == button41.Text && button41.Text != "")
+            {
+                if (button1.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button11.Text == button21.Text && button21.Text == button31.Text
+               && button31.Text == button41.Text && button41.Text == button51.Text && button51.Text != "")
+            {
+                if (button11.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button21.Text == button31.Text && button31.Text == button41.Text
+               && button41.Text == button51.Text && button51.Text == button61.Text && button61.Text != "")
+            {
+                if (button21.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button31.Text == button41.Text && button41.Text == button51.Text
+               && button51.Text == button61.Text && button61.Text == button71.Text && button71.Text != "")
+            {
+                if (button31.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button41.Text == button51.Text && button51.Text == button61.Text
+               && button61.Text == button71.Text && button71.Text == button81.Text && button81.Text != "")
+            {
+                if (button41.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button10.Text == button20.Text && button20.Text == button30.Text
+               && button30.Text == button40.Text && button40.Text == button50.Text && button50.Text != "")
+            {
+                if (button10.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button20.Text == button30.Text && button30.Text == button40.Text
+               && button40.Text == button50.Text && button50.Text == button60.Text && button60.Text != "")
+            {
+                if (button20.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button30.Text == button40.Text && button40.Text == button50.Text
+               && button50.Text == button60.Text && button60.Text == button70.Text && button70.Text != "")
+            {
+                if (button30.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button40.Text == button50.Text && button50.Text == button60.Text
+               && button60.Text == button70.Text && button70.Text == button80.Text && button80.Text != "")
+            {
+                if (button40.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button19.Text == button29.Text && button29.Text == button39.Text
+               && button39.Text == button49.Text && button49.Text == button59.Text && button59.Text != "")
+            {
+                if (button19.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button29.Text == button39.Text && button39.Text == button49.Text
+               && button49.Text == button59.Text && button59.Text == button69.Text && button69.Text != "")
+            {
+                if (button29.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button39.Text == button49.Text && button49.Text == button59.Text
+               && button59.Text == button69.Text && button69.Text == button79.Text && button79.Text != "")
+            {
+                if (button39.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button28.Text == button38.Text && button38.Text == button48.Text
+               && button48.Text == button58.Text && button58.Text == button68.Text && button68.Text != "")
+            {
+                if (button28.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button38.Text == button48.Text && button48.Text == button58.Text
+               && button58.Text == button68.Text && button68.Text == button78.Text && button78.Text != "")
+            {
+                if (button38.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button37.Text == button47.Text && button47.Text == button57.Text
+               && button57.Text == button67.Text && button67.Text == button77.Text && button77.Text != "")
+            {
+                if (button37.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+
+            //Menanjak
+            else if (button5.Text == button13.Text && button13.Text == button21.Text
+               && button21.Text == button29.Text && button29.Text == button37.Text && button37.Text != "")
+            {
+                if (button5.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button6.Text == button14.Text && button14.Text == button22.Text
+              && button22.Text == button30.Text && button30.Text == button38.Text && button38.Text != "")
+            {
+                if (button6.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button14.Text == button22.Text && button22.Text == button30.Text
+              && button30.Text == button38.Text && button38.Text == button46.Text && button46.Text != "")
+            {
+                if (button14.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button7.Text == button15.Text && button15.Text == button23.Text
+              && button23.Text == button31.Text && button31.Text == button39.Text && button39.Text != "")
+            {
+                if (button7.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button15.Text == button23.Text && button23.Text == button31.Text
+              && button31.Text == button39.Text && button39.Text == button47.Text && button47.Text != "")
+            {
+                if (button15.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button23.Text == button31.Text && button31.Text == button39.Text
+              && button39.Text == button47.Text && button47.Text == button55.Text && button55.Text != "")
+            {
+                if (button23.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button8.Text == button16.Text && button16.Text == button24.Text
+              && button24.Text == button32.Text && button32.Text == button40.Text && button40.Text != "")
+            {
+                if (button8.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button16.Text == button24.Text && button24.Text == button32.Text
+              && button32.Text == button40.Text && button40.Text == button48.Text && button48.Text != "")
+            {
+                if (button16.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button24.Text == button32.Text && button32.Text == button40.Text
+              && button40.Text == button48.Text && button48.Text == button56.Text && button56.Text != "")
+            {
+                if (button24.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button32.Text == button40.Text && button40.Text == button48.Text
+              && button48.Text == button56.Text && button56.Text == button64.Text && button64.Text != "")
+            {
+                if (button32.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button9.Text == button17.Text && button17.Text == button25.Text
+              && button25.Text == button33.Text && button33.Text == button41.Text && button41.Text != "")
+            {
+                if (button9.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button17.Text == button25.Text && button25.Text == button33.Text
+              && button33.Text == button41.Text && button41.Text == button49.Text && button49.Text != "")
+            {
+                if (button17.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button25.Text == button33.Text && button33.Text == button41.Text
+              && button41.Text == button49.Text && button49.Text == button57.Text && button57.Text != "")
+            {
+                if (button25.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button33.Text == button41.Text && button41.Text == button49.Text
+              && button49.Text == button57.Text && button57.Text == button65.Text && button65.Text != "")
+            {
+                if (button33.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button41.Text == button49.Text && button49.Text == button57.Text
+              && button57.Text == button65.Text && button65.Text == button73.Text && button73.Text != "")
+            {
+                if (button41.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button18.Text == button26.Text && button26.Text == button34.Text
+              && button34.Text == button42.Text && button42.Text == button50.Text && button50.Text != "")
+            {
+                if (button18.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button26.Text == button34.Text && button34.Text == button42.Text
+              && button42.Text == button50.Text && button50.Text == button58.Text && button58.Text != "")
+            {
+                if (button26.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button34.Text == button42.Text && button42.Text == button50.Text
+              && button50.Text == button58.Text && button58.Text == button66.Text && button66.Text != "")
+            {
+                if (button34.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button42.Text == button50.Text && button50.Text == button58.Text
+              && button58.Text == button66.Text && button66.Text == button74.Text && button74.Text != "")
+            {
+                if (button42.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button27.Text == button35.Text && button35.Text == button43.Text
+              && button43.Text == button51.Text && button51.Text == button59.Text && button59.Text != "")
+            {
+                if (button27.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button35.Text == button43.Text && button43.Text == button51.Text
+              && button51.Text == button59.Text && button59.Text == button67.Text && button67.Text != "")
+            {
+                if (button35.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button43.Text == button51.Text && button51.Text == button59.Text
+              && button59.Text == button67.Text && button67.Text == button75.Text && button75.Text != "")
+            {
+                if (button43.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button36.Text == button44.Text && button44.Text == button52.Text
+              && button52.Text == button60.Text && button60.Text == button68.Text && button68.Text != "")
+            {
+                if (button36.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button44.Text == button52.Text && button52.Text == button60.Text
+              && button60.Text == button68.Text && button68.Text == button76.Text && button76.Text != "")
+            {
+                if (button44.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            else if (button45.Text == button53.Text && button53.Text == button61.Text
+              && button61.Text == button69.Text && button69.Text == button77.Text && button77.Text != "")
+            {
+                if (button45.Text[0] == PlayersChar)
+                {
+                    TurnLabel.Text = "You Won!";
+                    counterScorePlayerOne++;
+                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    MessageBox.Show($"{Name} Won!");
+                    ClearBoard();
+                }
+                else
+                {
+                    TurnLabel.Text = "You Lost!";
+                    counterScorePlayerTwo++;
+                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    MessageBox.Show($"{Name} Lost!");
+                    ClearBoard();
+                }
+                return true;
+            }
+            //Finish Diagonal
+
             //Draw
             else if (button1.Text != "" && button2.Text != "" && button3.Text != "" && button4.Text != "" && button5.Text != "" && button6.Text != "" && button7.Text != "" && button8.Text != "" && button9.Text != "")
             {
