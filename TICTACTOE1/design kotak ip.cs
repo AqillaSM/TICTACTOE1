@@ -41,7 +41,7 @@ namespace TICTACTOE1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form1 newGame = new Form1(true); // buat nyambungin ke form1.cs
+            Form1 newGame = new Form1(true);
             Visible = false;
             if (!newGame.IsDisposed)
             {
@@ -52,23 +52,6 @@ namespace TICTACTOE1
         public void textBox1_TextChanged(object sender, EventArgs e)
         {
            
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-            string Name;
-            Name = textBox2.Text;
-            //Form1 frm1 = new Form1(textBox2.Text.ToString());
         }
     }
 }

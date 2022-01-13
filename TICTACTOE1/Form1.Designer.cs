@@ -141,6 +141,10 @@
             this.Draw = new System.Windows.Forms.Label();
             this.DrawScore = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.Mute = new System.Windows.Forms.PictureBox();
+            this.Volume = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.Mute)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Volume)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -324,7 +328,7 @@
             // 
             // ExitGame
             // 
-            this.ExitGame.BackColor = System.Drawing.Color.Transparent;
+            this.ExitGame.BackColor = System.Drawing.Color.BurlyWood;
             this.ExitGame.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ExitGame.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ExitGame.Location = new System.Drawing.Point(506, 943);
@@ -360,13 +364,13 @@
             this.TurnLabel.AutoSize = true;
             this.TurnLabel.BackColor = System.Drawing.Color.Transparent;
             this.TurnLabel.Font = new System.Drawing.Font("Times New Roman", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TurnLabel.Location = new System.Drawing.Point(268, 893);
+            this.TurnLabel.Location = new System.Drawing.Point(306, 896);
             this.TurnLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.TurnLabel.Name = "TurnLabel";
             this.TurnLabel.Size = new System.Drawing.Size(332, 29);
             this.TurnLabel.TabIndex = 26;
             this.TurnLabel.Text = "Your Turn! / Opponent\'s Turn!";
-            this.TurnLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.TurnLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Nama1
             // 
@@ -392,6 +396,7 @@
             // 
             // ResetScore
             // 
+            this.ResetScore.BackColor = System.Drawing.Color.BurlyWood;
             this.ResetScore.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ResetScore.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ResetScore.Location = new System.Drawing.Point(120, 943);
@@ -400,7 +405,7 @@
             this.ResetScore.Size = new System.Drawing.Size(224, 51);
             this.ResetScore.TabIndex = 29;
             this.ResetScore.Text = "RESET SCORE";
-            this.ResetScore.UseVisualStyleBackColor = true;
+            this.ResetScore.UseVisualStyleBackColor = false;
             this.ResetScore.Click += new System.EventHandler(this.ResetScore_Click_1);
             // 
             // OpponentsLabel
@@ -1530,11 +1535,37 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(629, 74);
+            this.label1.Location = new System.Drawing.Point(629, 79);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(39, 59);
             this.label1.TabIndex = 107;
             this.label1.Text = "|";
+            // 
+            // Mute
+            // 
+            this.Mute.BackColor = System.Drawing.Color.Transparent;
+            this.Mute.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Mute.Image = ((System.Drawing.Image)(resources.GetObject("Mute.Image")));
+            this.Mute.Location = new System.Drawing.Point(786, 12);
+            this.Mute.Name = "Mute";
+            this.Mute.Size = new System.Drawing.Size(50, 50);
+            this.Mute.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Mute.TabIndex = 108;
+            this.Mute.TabStop = false;
+            this.Mute.Click += new System.EventHandler(this.Mute_Click);
+            // 
+            // Volume
+            // 
+            this.Volume.BackColor = System.Drawing.Color.Transparent;
+            this.Volume.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Volume.Image = ((System.Drawing.Image)(resources.GetObject("Volume.Image")));
+            this.Volume.Location = new System.Drawing.Point(786, 12);
+            this.Volume.Name = "Volume";
+            this.Volume.Size = new System.Drawing.Size(50, 50);
+            this.Volume.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Volume.TabIndex = 109;
+            this.Volume.TabStop = false;
+            this.Volume.Click += new System.EventHandler(this.Volume_Click);
             // 
             // Form1
             // 
@@ -1544,6 +1575,8 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(848, 1014);
+            this.Controls.Add(this.Volume);
+            this.Controls.Add(this.Mute);
             this.Controls.Add(this.DrawScore);
             this.Controls.Add(this.Draw);
             this.Controls.Add(this.panel10);
@@ -1657,11 +1690,14 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TicTacToe Multiplayer by Team ";
+            this.Text = "TIC TAC TOE Multiplayer";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.Mute)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Volume)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1781,6 +1817,8 @@
         private System.Windows.Forms.Label Draw;
         private System.Windows.Forms.Label DrawScore;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox Mute;
+        private System.Windows.Forms.PictureBox Volume;
     }
 }
 
