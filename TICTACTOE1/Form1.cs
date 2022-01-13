@@ -22,8 +22,8 @@ namespace TICTACTOE1
         public SoundPlayer soundPlayer;
 
         //Score
-        int counterScorePlayerOne = 0;
-        int counterScorePlayerTwo = 0;
+        int counterScorePlayer = 0;
+        int counterScoreOpponent = 0;
         int counterDrawScore = 0;
 
         public Form1(bool isHost, string ip = null)
@@ -94,8 +94,8 @@ namespace TICTACTOE1
                 if (button1.Text[0] == PlayersChar)
                 { 
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -105,8 +105,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -121,8 +121,8 @@ namespace TICTACTOE1
                 if (button10.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -132,8 +132,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -148,8 +148,8 @@ namespace TICTACTOE1
                 if (button19.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -159,8 +159,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -175,8 +175,8 @@ namespace TICTACTOE1
                 if (button28.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -186,8 +186,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -202,8 +202,8 @@ namespace TICTACTOE1
                 if (button37.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -213,8 +213,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -230,8 +230,8 @@ namespace TICTACTOE1
                 if (button2.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -241,8 +241,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -257,8 +257,8 @@ namespace TICTACTOE1
                 if (button11.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -268,8 +268,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -284,8 +284,8 @@ namespace TICTACTOE1
                 if (button20.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -295,8 +295,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -311,8 +311,8 @@ namespace TICTACTOE1
                 if (button29.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -322,8 +322,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -338,8 +338,8 @@ namespace TICTACTOE1
                 if (button38.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -349,8 +349,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -365,8 +365,8 @@ namespace TICTACTOE1
                 if (button3.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -376,8 +376,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -392,8 +392,8 @@ namespace TICTACTOE1
                 if (button12.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -403,8 +403,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -419,8 +419,8 @@ namespace TICTACTOE1
                 if (button21.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -430,8 +430,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -446,8 +446,8 @@ namespace TICTACTOE1
                 if (button30.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -457,8 +457,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -473,8 +473,8 @@ namespace TICTACTOE1
                 if (button39.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -484,8 +484,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -501,8 +501,8 @@ namespace TICTACTOE1
                 if (button4.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -512,8 +512,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -528,8 +528,8 @@ namespace TICTACTOE1
                 if (button13.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -539,8 +539,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -555,8 +555,8 @@ namespace TICTACTOE1
                 if (button22.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -566,8 +566,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -582,8 +582,8 @@ namespace TICTACTOE1
                 if (button31.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -593,8 +593,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -609,8 +609,8 @@ namespace TICTACTOE1
                 if (button40.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -620,8 +620,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -637,8 +637,8 @@ namespace TICTACTOE1
                 if (button5.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -648,8 +648,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -664,8 +664,8 @@ namespace TICTACTOE1
                 if (button14.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -675,8 +675,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -691,8 +691,8 @@ namespace TICTACTOE1
                 if (button23.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -702,8 +702,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -718,8 +718,8 @@ namespace TICTACTOE1
                 if (button32.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -729,8 +729,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -745,8 +745,8 @@ namespace TICTACTOE1
                 if (button41.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -756,8 +756,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -773,8 +773,8 @@ namespace TICTACTOE1
                 if (button6.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -784,8 +784,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -800,8 +800,8 @@ namespace TICTACTOE1
                 if (button15.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -811,8 +811,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -827,8 +827,8 @@ namespace TICTACTOE1
                 if (button24.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -838,8 +838,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -854,8 +854,8 @@ namespace TICTACTOE1
                 if (button33.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -865,8 +865,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -881,8 +881,8 @@ namespace TICTACTOE1
                 if (button42.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -892,8 +892,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -909,8 +909,8 @@ namespace TICTACTOE1
                 if (button7.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -920,8 +920,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -936,8 +936,8 @@ namespace TICTACTOE1
                 if (button16.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -947,8 +947,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -963,8 +963,8 @@ namespace TICTACTOE1
                 if (button25.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -974,8 +974,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -990,8 +990,8 @@ namespace TICTACTOE1
                 if (button34.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1001,8 +1001,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1017,8 +1017,8 @@ namespace TICTACTOE1
                 if (button43.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1028,8 +1028,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1045,8 +1045,8 @@ namespace TICTACTOE1
                 if (button8.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1056,8 +1056,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1072,8 +1072,8 @@ namespace TICTACTOE1
                 if (button17.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1083,8 +1083,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1099,8 +1099,8 @@ namespace TICTACTOE1
                 if (button26.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1110,8 +1110,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1126,8 +1126,8 @@ namespace TICTACTOE1
                 if (button35.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1137,8 +1137,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1153,8 +1153,8 @@ namespace TICTACTOE1
                 if (button44.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1164,8 +1164,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1181,8 +1181,8 @@ namespace TICTACTOE1
                 if (button9.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1192,8 +1192,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1208,8 +1208,8 @@ namespace TICTACTOE1
                 if (button18.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1219,8 +1219,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1235,8 +1235,8 @@ namespace TICTACTOE1
                 if (button27.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1246,8 +1246,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1262,8 +1262,8 @@ namespace TICTACTOE1
                 if (button36.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1273,8 +1273,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1289,8 +1289,8 @@ namespace TICTACTOE1
                 if (button81.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1300,8 +1300,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1317,8 +1317,8 @@ namespace TICTACTOE1
                 if (button1.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1328,8 +1328,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1344,8 +1344,8 @@ namespace TICTACTOE1
                 if (button2.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1355,8 +1355,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1371,8 +1371,8 @@ namespace TICTACTOE1
                 if (button3.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1382,8 +1382,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1397,8 +1397,8 @@ namespace TICTACTOE1
                 if (button4.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1408,8 +1408,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1423,8 +1423,8 @@ namespace TICTACTOE1
                 if (button5.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1434,8 +1434,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1450,8 +1450,8 @@ namespace TICTACTOE1
                 if (button10.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1461,8 +1461,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1477,8 +1477,8 @@ namespace TICTACTOE1
                 if (button11.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1488,8 +1488,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1504,8 +1504,8 @@ namespace TICTACTOE1
                 if (button12.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1515,8 +1515,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1530,8 +1530,8 @@ namespace TICTACTOE1
                 if (button13.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1541,8 +1541,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1556,8 +1556,8 @@ namespace TICTACTOE1
                 if (button14.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1567,8 +1567,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1583,8 +1583,8 @@ namespace TICTACTOE1
                 if (button19.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1594,8 +1594,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1610,8 +1610,8 @@ namespace TICTACTOE1
                 if (button20.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1621,8 +1621,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1637,8 +1637,8 @@ namespace TICTACTOE1
                 if (button21.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1648,8 +1648,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1663,8 +1663,8 @@ namespace TICTACTOE1
                 if (button22.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1674,8 +1674,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1689,8 +1689,8 @@ namespace TICTACTOE1
                 if (button23.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1700,8 +1700,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1716,8 +1716,8 @@ namespace TICTACTOE1
                 if (button28.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1727,8 +1727,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1743,8 +1743,8 @@ namespace TICTACTOE1
                 if (button29.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1754,8 +1754,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1771,8 +1771,8 @@ namespace TICTACTOE1
                 if (button30.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1782,8 +1782,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1798,8 +1798,8 @@ namespace TICTACTOE1
                 if (button31.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1809,8 +1809,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1825,8 +1825,8 @@ namespace TICTACTOE1
                 if (button32.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1836,8 +1836,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1853,8 +1853,8 @@ namespace TICTACTOE1
                 if (button37.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1864,8 +1864,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1881,8 +1881,8 @@ namespace TICTACTOE1
                 if (button38.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1892,8 +1892,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1909,8 +1909,8 @@ namespace TICTACTOE1
                 if (button39.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1920,8 +1920,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1936,8 +1936,8 @@ namespace TICTACTOE1
                 if (button40.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1947,8 +1947,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1963,8 +1963,8 @@ namespace TICTACTOE1
                 if (button41.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -1974,8 +1974,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -1991,8 +1991,8 @@ namespace TICTACTOE1
                 if (button46.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2002,8 +2002,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2019,8 +2019,8 @@ namespace TICTACTOE1
                 if (button47.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2030,8 +2030,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2047,8 +2047,8 @@ namespace TICTACTOE1
                 if (button48.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2058,8 +2058,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2074,8 +2074,8 @@ namespace TICTACTOE1
                 if (button49.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2085,8 +2085,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2101,8 +2101,8 @@ namespace TICTACTOE1
                 if (button50.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2112,8 +2112,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2129,8 +2129,8 @@ namespace TICTACTOE1
                 if (button55.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2140,8 +2140,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2157,8 +2157,8 @@ namespace TICTACTOE1
                 if (button56.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2168,8 +2168,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2185,8 +2185,8 @@ namespace TICTACTOE1
                 if (button57.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2196,8 +2196,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2212,8 +2212,8 @@ namespace TICTACTOE1
                 if (button58.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2223,8 +2223,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2239,8 +2239,8 @@ namespace TICTACTOE1
                 if (button59.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2250,8 +2250,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2267,8 +2267,8 @@ namespace TICTACTOE1
                 if (button64.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2278,8 +2278,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2295,8 +2295,8 @@ namespace TICTACTOE1
                 if (button65.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2306,8 +2306,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2323,8 +2323,8 @@ namespace TICTACTOE1
                 if (button66.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2334,8 +2334,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2350,8 +2350,8 @@ namespace TICTACTOE1
                 if (button67.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2361,8 +2361,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2377,8 +2377,8 @@ namespace TICTACTOE1
                 if (button68.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2388,8 +2388,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2405,8 +2405,8 @@ namespace TICTACTOE1
                 if (button73.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2416,8 +2416,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2433,8 +2433,8 @@ namespace TICTACTOE1
                 if (button74.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2444,8 +2444,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2461,8 +2461,8 @@ namespace TICTACTOE1
                 if (button75.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2472,8 +2472,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2488,8 +2488,8 @@ namespace TICTACTOE1
                 if (button76.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2499,8 +2499,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2515,8 +2515,8 @@ namespace TICTACTOE1
                 if (button77.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2526,8 +2526,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2544,8 +2544,8 @@ namespace TICTACTOE1
                 if (button5.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2555,8 +2555,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2571,8 +2571,8 @@ namespace TICTACTOE1
                 if (button4.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2582,8 +2582,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2598,8 +2598,8 @@ namespace TICTACTOE1
                 if (button14.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2609,8 +2609,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2625,8 +2625,8 @@ namespace TICTACTOE1
                 if (button3.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2636,8 +2636,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2652,8 +2652,8 @@ namespace TICTACTOE1
                 if (button13.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2663,8 +2663,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2679,8 +2679,8 @@ namespace TICTACTOE1
                 if (button77.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2690,8 +2690,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2706,8 +2706,8 @@ namespace TICTACTOE1
                 if (button23.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2717,8 +2717,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2733,8 +2733,8 @@ namespace TICTACTOE1
                 if (button2.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2744,8 +2744,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2760,8 +2760,8 @@ namespace TICTACTOE1
                 if (button12.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2771,8 +2771,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2787,8 +2787,8 @@ namespace TICTACTOE1
                 if (button22.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2798,8 +2798,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2814,8 +2814,8 @@ namespace TICTACTOE1
                 if (button32.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2825,8 +2825,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2841,8 +2841,8 @@ namespace TICTACTOE1
                 if (button1.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2852,8 +2852,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2868,8 +2868,8 @@ namespace TICTACTOE1
                 if (button11.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2879,8 +2879,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2895,8 +2895,8 @@ namespace TICTACTOE1
                 if (button21.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2906,8 +2906,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2922,8 +2922,8 @@ namespace TICTACTOE1
                 if (button31.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2933,8 +2933,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2949,8 +2949,8 @@ namespace TICTACTOE1
                 if (button41.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2960,8 +2960,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -2976,8 +2976,8 @@ namespace TICTACTOE1
                 if (button10.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -2987,8 +2987,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3003,8 +3003,8 @@ namespace TICTACTOE1
                 if (button20.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3014,8 +3014,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3030,8 +3030,8 @@ namespace TICTACTOE1
                 if (button30.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3041,8 +3041,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3057,8 +3057,8 @@ namespace TICTACTOE1
                 if (button40.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3068,8 +3068,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3084,8 +3084,8 @@ namespace TICTACTOE1
                 if (button19.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3095,8 +3095,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3111,8 +3111,8 @@ namespace TICTACTOE1
                 if (button29.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3122,8 +3122,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3138,8 +3138,8 @@ namespace TICTACTOE1
                 if (button39.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3149,8 +3149,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3165,8 +3165,8 @@ namespace TICTACTOE1
                 if (button28.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3176,8 +3176,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3192,8 +3192,8 @@ namespace TICTACTOE1
                 if (button38.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3203,8 +3203,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3219,8 +3219,8 @@ namespace TICTACTOE1
                 if (button37.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3230,8 +3230,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3248,8 +3248,8 @@ namespace TICTACTOE1
                 if (button5.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3259,8 +3259,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3275,8 +3275,8 @@ namespace TICTACTOE1
                 if (button6.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3286,8 +3286,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3302,8 +3302,8 @@ namespace TICTACTOE1
                 if (button14.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3313,8 +3313,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3329,8 +3329,8 @@ namespace TICTACTOE1
                 if (button7.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3340,8 +3340,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3356,8 +3356,8 @@ namespace TICTACTOE1
                 if (button15.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3367,8 +3367,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3383,8 +3383,8 @@ namespace TICTACTOE1
                 if (button23.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3394,8 +3394,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3410,8 +3410,8 @@ namespace TICTACTOE1
                 if (button8.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3421,8 +3421,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3437,8 +3437,8 @@ namespace TICTACTOE1
                 if (button16.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3448,8 +3448,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3464,8 +3464,8 @@ namespace TICTACTOE1
                 if (button24.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3475,8 +3475,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3491,8 +3491,8 @@ namespace TICTACTOE1
                 if (button32.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3502,8 +3502,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3518,8 +3518,8 @@ namespace TICTACTOE1
                 if (button9.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3529,8 +3529,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3545,8 +3545,8 @@ namespace TICTACTOE1
                 if (button17.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3556,8 +3556,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3572,8 +3572,8 @@ namespace TICTACTOE1
                 if (button25.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3583,8 +3583,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3599,8 +3599,8 @@ namespace TICTACTOE1
                 if (button33.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3610,8 +3610,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3626,8 +3626,8 @@ namespace TICTACTOE1
                 if (button41.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3637,8 +3637,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3653,8 +3653,8 @@ namespace TICTACTOE1
                 if (button18.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3664,8 +3664,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3680,8 +3680,8 @@ namespace TICTACTOE1
                 if (button26.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3691,8 +3691,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3707,8 +3707,8 @@ namespace TICTACTOE1
                 if (button34.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3718,8 +3718,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3734,8 +3734,8 @@ namespace TICTACTOE1
                 if (button42.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3745,8 +3745,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3761,8 +3761,8 @@ namespace TICTACTOE1
                 if (button27.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3772,8 +3772,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3788,8 +3788,8 @@ namespace TICTACTOE1
                 if (button35.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3799,8 +3799,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3815,8 +3815,8 @@ namespace TICTACTOE1
                 if (button43.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3826,8 +3826,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3842,8 +3842,8 @@ namespace TICTACTOE1
                 if (button36.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3853,8 +3853,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3869,8 +3869,8 @@ namespace TICTACTOE1
                 if (button44.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3880,8 +3880,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -3896,8 +3896,8 @@ namespace TICTACTOE1
                 if (button45.Text[0] == PlayersChar)
                 {
                     TurnLabel.Text = "You Won!";
-                    counterScorePlayerOne++;
-                    YoursScore.Text = counterScorePlayerOne.ToString();
+                    counterScorePlayer++;
+                    YoursScore.Text = counterScorePlayer.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Won!");
                     else
@@ -3907,8 +3907,8 @@ namespace TICTACTOE1
                 else
                 {
                     TurnLabel.Text = "You Lost!";
-                    counterScorePlayerTwo++;
-                    OpponentsScore.Text = counterScorePlayerTwo.ToString();
+                    counterScoreOpponent++;
+                    OpponentsScore.Text = counterScoreOpponent.ToString();
                     if (PlayersChar == 'X')
                         MessageBox.Show("Player One Lost!");
                     else
@@ -5347,11 +5347,11 @@ namespace TICTACTOE1
 
         private void ResetScore_Click_1(object sender, EventArgs e)
         {
-            counterScorePlayerOne = 0;
-            counterScorePlayerTwo = 0;
+            counterScorePlayer = 0;
+            counterScoreOpponent = 0;
             counterDrawScore = 0;
-            YoursScore.Text = counterScorePlayerOne.ToString();
-            OpponentsScore.Text = counterScorePlayerTwo.ToString();
+            YoursScore.Text = counterScorePlayer.ToString();
+            OpponentsScore.Text = counterScoreOpponent.ToString();
             DrawScore.Text = counterDrawScore.ToString();
         }
 
