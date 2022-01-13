@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net.Sockets; //untuk send ke app lain
 using System.Media; //untuk Music
@@ -84,9 +78,9 @@ namespace TICTACTOE1
             if (CheckSituation())
                 return;
             FreezeBoard();
-            TurnLabel.Text = $"Opponents's Turn";
+            TurnLabel.Text = "Opponents's Turn";
             ReceiveMove();
-            TurnLabel.Text = $"Your Turn!";
+            TurnLabel.Text = "Your Turn!";
             if (!CheckSituation())
                 UnfreezeBoard();
         }
